@@ -1,0 +1,22 @@
+{
+    "name": "estar/php",
+    "autoload": {
+        "psr-4": {
+            "php\\": "Src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "estarlynhernandez",
+            "email": "estarlynhernandez@hotmail.com"
+        }
+    ],
+    "require": {
+        "ext-bcmath": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "ext-mysqli": "*",
+        "phpmailer/phpmailer": "^6.8",
+        "ext-zlib": "*"
+    }
+}
